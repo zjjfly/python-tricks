@@ -38,7 +38,7 @@ assert 'b' == f()
 # 下面是一个更复杂和实际的例子：
 def dispatch_dict(operator, x, y):
     return {
-        'add': operator,
+        'add': lambda: x + y,
         'sub': lambda: x - y,
         'mul': lambda: x * y,
         'div': lambda: x / y,
