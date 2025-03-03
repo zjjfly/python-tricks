@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from ch2.my_module import *
-import common
+import asserts
 
 
 # 单下划线开头，一般是意味着该变量或方法只在类的内部使用

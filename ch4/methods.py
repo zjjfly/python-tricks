@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-import common
 import math
+
+import decorators
 
 
 # Python类中有三种常用的方法：class method，static method，instance method
@@ -35,7 +36,7 @@ assert 'static method called' == obj.staticmethod()
 assert 'static method called' == MyClass.staticmethod()
 
 
-@common.comparable
+@decorators.comparable
 class Pizza:
     def __init__(self, radius, ingredients):
         self.radius = radius

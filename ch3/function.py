@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # 函数在Python是一等公民
-import common
+import asserts
 
 
 def yell(text):

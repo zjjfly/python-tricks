@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import common
+import asserts
 import collections
 import typing
 import json

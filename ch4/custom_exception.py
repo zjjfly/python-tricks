@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import common
+import asserts
 
 
 # 尽量使用自定义的错误类型，而不是内置的那些较为宽泛的错误类型

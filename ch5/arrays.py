@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from common import assert_throw
+from asserts import assert_throw
 
 # Array是大多数编程语言的基础程序结构，它在相邻的内存中存储数据，并可以通过index方法其中的元素，
 # Python中的几种Array实现：

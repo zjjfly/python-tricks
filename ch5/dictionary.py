@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from logging import fatal
 
-from common import assert_throw
+from asserts import assert_throw
 
 # Python中Map的实现是dict这个类，是Python的核心的数据结构之一
 # 所以Python提供了一些相关的语法糖

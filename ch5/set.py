@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from common import assert_throw
+from asserts import assert_throw
 
 # set，和dict一样有字面量语法
 vowels = {'a', 'e', 'i', 'o', 'u'}

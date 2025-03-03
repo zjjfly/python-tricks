@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from common import assert_throw
+from asserts import assert_throw
 
 
 # record这种类型的数据结构有固定的字段数量，并且每个字段都有名称，且可能有不同的类型

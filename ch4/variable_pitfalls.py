@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import common
+import asserts
 
 
 # Python的variable分为class variable和instance variable

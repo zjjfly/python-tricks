@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import copy
-import common
+import decorators
 
 # 可以使用工厂方法对Python的可变集合进行浅拷贝
 original_list = [1, 2, 3]
@@ -36,7 +36,7 @@ assert xs[1] != zs[1]
 
 # 拷贝自定义类的对象
 
-@common.comparable
+@decorators.comparable
 class Point:
     def __init__(self, x, y):
         self.x = x
@@ -52,7 +52,7 @@ b = copy.copy(a)
 assert a == b
 
 
-@common.comparable
+@decorators.comparable
 class Rectangle:
     def __init__(self, topleft, bottomright):
         self.topleft = topleft

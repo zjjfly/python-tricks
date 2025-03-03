@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 
-from common import assert_throw
+from asserts import assert_throw
 
 # Python虽然为dict实现了__str__和__repr__方法，是它可以直接被打印出来，但也存在一些问题
 # 首先，这个实现是单行的，没有换行和缩进，导致可读性很差，尤其是dict较复杂的时候

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from common import assert_throw
+from asserts import assert_throw
 
 # stack是一个先进后出的数据结构，主要支持两个操作：push和pop，并且它们的复杂度都是O(1)
 # Python中有多个stack的实现，下面逐一介绍：

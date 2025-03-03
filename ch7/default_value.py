@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from common import assert_throw
+from asserts import assert_throw
 
 # dict的get方法查找某个key对应的默认值，器第二个参数可以设置当找不到这个key的时候返回的默认值
 name_for_userid = {
